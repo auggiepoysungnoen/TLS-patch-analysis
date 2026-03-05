@@ -1,0 +1,23 @@
+# Large data directories — do not commit
+data/
+output/
+resources/
+
+# Large exploratory notebooks with embedded outputs
+notebook/patch_analysis.ipynb
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
